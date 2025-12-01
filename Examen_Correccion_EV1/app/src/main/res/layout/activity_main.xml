@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvGasolineraNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombreGas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvProductoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tProducto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvGasolineraNombre" />
+
+    <RadioGroup
+        android:id="@+id/rgTipoCombustible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvProductoLabel">
+
+        <RadioButton
+            android:id="@+id/rbSP98"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tGas1" />
+
+        <RadioButton
+            android:id="@+id/rbSP95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tGas2" />
+
+        <RadioButton
+            android:id="@+id/rbDieselA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tGas3" />
+
+        <RadioButton
+            android:id="@+id/rbDieselB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tGas4" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvLitrosLabel"
+        android:layout_width="56dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/litros"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rgTipoCombustible" />
+
+    <EditText
+        android:id="@+id/etLitros"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLitrosLabel"
+        app:layout_constraintStart_toEndOf="@id/tvLitrosLabel"
+        app:layout_constraintTop_toTopOf="@+id/tvLitrosLabel" />
+
+    <CheckBox
+        android:id="@+id/chkDescuento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/txtChDes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etLitros" />
+
+    <EditText
+        android:id="@+id/etCodigoDescuento"
+        android:layout_width="271dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/chkDescuento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toEndOf="@id/chkDescuento"
+        app:layout_constraintTop_toTopOf="@+id/chkDescuento" />
+
+    <ImageView
+        android:id="@+id/ivDescuento"
+        android:layout_width="147dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/etLitros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/rgTipoCombustible"
+        app:layout_constraintTop_toTopOf="@id/rgTipoCombustible"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/btnLlenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bLlenar"
+        app:layout_constraintTop_toBottomOf="@id/chkDescuento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/tvMensaje"
+        android:layout_width="256dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tWelcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLlenar" />
+
+    <TextView
+        android:id="@+id/tvDescuentoAplicado"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/rDescuento"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvMensaje" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

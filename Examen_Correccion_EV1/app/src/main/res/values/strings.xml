@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Gasolinera Rojas</string>
+
+    <string name="nombreGas">GASOLINERA ROJAS CARRERA</string>
+    <string name="tProducto">Tipo de producto</string>
+    <string name="tGas1">SP/98</string>
+    <string name="tGas2">SP/95</string>
+    <string name="tGas3">Diesel A</string>
+    <string name="tGas4">Diesel B</string>
+    <string name="litros">Litros:</string>
+    <string name="txtChDes">Descuento</string>
+    <string name="bLlenar">Llenar</string>
+
+    <string name="tWelcome">Bienvenido a la gasolinera</string>
+
+    <string name="rCompra">
+        GASOLINERA ROJAS CARRERA
+        Se han echado %d litros del producto %s
+        Importe total: %.2f €
+    </string>
+
+    <string name="rDescuento">
+        Se ha aplicado un 5%% de descuento.
+        IMPORTE FINAL: %.2f €
+    </string>
+
+</resources>
