@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppEnvioDatos</string>
+    <string name="introduce_nombre">Introduce tu nombre</string>
+    <string name="enviar">Enviar</string>
+    <string name="hola">Hola</string>
+    <string name="error_nombre">Debes introducir un nombre</string>
+    <string name="escribe_respuesta">Escribe un saludo de vuelta</string>
+    <string name="responder">Responder</string>
+</resources>

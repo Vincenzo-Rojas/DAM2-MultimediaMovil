@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppIntent</string>
+    <string name="pulsame">Púlsame</string>
+    <string name="segunda_ventana">Esta es la segunda ventana</string>
+</resources>

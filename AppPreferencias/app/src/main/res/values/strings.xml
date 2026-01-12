@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppPreferencias</string>
+
+    <string name="titulo">Selecciona un tono</string>
+
+    <string name="tono_0">Silencio</string>
+    <string name="tono_1">Andromeda</string>
+    <string name="tono_2">Basic bell</string>
+    <string name="tono_3">Cassiopeia</string>
+    <string name="tono_4">Chime</string>
+
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+</resources>

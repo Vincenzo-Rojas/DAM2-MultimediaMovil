@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#222222"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <RadioGroup
+        android:layout_width="123dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnMenos"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="-1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnMas"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="+1"
+            android:textSize="20sp" />
+    </RadioGroup>
+</LinearLayout>
