@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edRef"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Referencia" />
+
+    <EditText
+        android:id="@+id/edTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Titulo" />
+
+    <EditText
+        android:id="@+id/edAutor"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Autor" />
+
+    <Button
+        android:id="@+id/btnInsertar"
+        android:text="Insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:text="Consultar por referencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:text="Borrar video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnListar"
+        android:text="Mostrar todos los videos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
