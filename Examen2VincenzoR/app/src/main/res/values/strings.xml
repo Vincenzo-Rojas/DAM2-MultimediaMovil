@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Examen2VincenzoR</string>
+    <string name="nombre">Literatura Actual</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="cancelar">CANCELAR</string>
+
+    <string-array name="titulo">
+        <item>La sociedad del cansancio</item>
+        <item>La vegetariana</item>
+        <item>Un requiem europeo</item>
+    </string-array>
+
+    <string-array name="autor">
+        <item>Byung-Chul Han</item>
+        <item>Han Kang</item>
+        <item>Javier Saez de Ibarra</item>
+    </string-array>
+
+    <string name="campoUser">Campos obligatorio USUARIO vacio</string>
+    <string name="campoPassW">Campos obligatorio CONTRASEÑA vacio</string>
+    <string name="ok">Acceso autorizado</string>
+    <string name="notOk">Vuelve a introducir la contraseña</string>
+    <string name="notExists">No existe el usuario</string>
+    <string name="insertadoOK">Usuario insertado</string>
+    <string name="insertadoNotOK">Error al insertar el usuario</string>
+
+
+    <string name="cancelado">"Acción cancelada"</string>
+    <string name="titulo_dialogo">Añadir usuario</string>
+    <string name="texto_dialogo">Nuevo usuario. Pulsa aceptar para grabar tus datos</string>
+
+
+</resources>
