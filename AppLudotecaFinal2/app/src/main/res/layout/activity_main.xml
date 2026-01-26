@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para escribir la referencia del video -->
+    <EditText
+        android:id="@+id/etReferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Referencia" />
+
+    <!-- Campo para escribir el titulo -->
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulo" />
+
+    <!-- Campo para escribir el autor -->
+    <EditText
+        android:id="@+id/etAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Autor" />
+
+    <!-- Boton para insertar un video -->
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar" />
+
+    <!-- Boton para consultar un video -->
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar" />
+
+    <!-- Boton para borrar un video -->
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Borrar" />
+
+    <!-- Boton para listar todos los videos -->
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar" />
+
+    <!-- Switch opcional pedido en la practica -->
+    <Switch
+        android:id="@+id/switchOpcional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar imagenes" />
+
+</LinearLayout>
